@@ -9,5 +9,5 @@ def isOdd(value):
     bool - 如果是整数且为奇数返回 True，否则返回 False
     """
   if isinstance(value,int):
-      return value % 2 !=0
+      return value % 2 != 0
     return False
